@@ -33,9 +33,8 @@ int main() {
     else {
         return 0;
     }
-
     if(average >= 75) {
-        cout << "Excellent!!! 'A' grade is awarded to you!!! Keep it uo!!!" << endl;
+        cout << "Excellent!!! 'A' grade is awarded to you!!! Keep it up!!!" << endl;
     }
     else if(average >= 35 && average < 75) {
         cout << "Good!!! 'B' grade is awarded to you!!! But, get the 'A' grade next time!!!" << endl;
