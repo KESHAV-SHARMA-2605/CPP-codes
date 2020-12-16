@@ -7,26 +7,26 @@ int main() {
     cout << "Please enter the marks of your three subjects (please enter the marks that you obtained from 100): " << endl;
     cin >> m1;
 
-    if(m1 <= 0 || m1 >= 100) {
+    if(m1 < 0 || m1 > 100) {
         cout << "Invalid input!!! You needed to enter the marks of subject that you obtained from 100!!!" << endl;
         return 0;
     }
 
     cin >> m2;
 
-    if(m2 <= 0 || m2 >= 100) {
+    if(m2 < 0 || m2 > 100) {
         cout << "Invalid input!!! You needed to enter the marks of subject that you obtained from 100!!!" << endl;
         return 0;
     }
 
     cin >> m3;
 
-    if(m3 <= 0 || m3 >= 100) {
+    if(m3 < 0 || m3 > 100) {
         cout << "Invalid input!!! You needed to enter the marks of subject that you obtained from 100!!!" << endl;
         return 0;    
     }
 
-    if(m1 >=0 && m1 <= 100 && m2 >= 0 && m2 <= 100 && m3 >= 0 && m3 <= 100) {
+    if(m1 >= 0 && m1 <= 100 && m2 >= 0 && m2 <= 100 && m3 >= 0 && m3 <= 100) {
         sum = m1 + m2 + m3;
         average = sum / 3;
     }
