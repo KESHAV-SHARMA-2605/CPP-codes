@@ -1,4 +1,4 @@
-include <iostream>
+#include <iostream>
 using namespace std;
 int main() {
     int i, n, a, b, c, d, e;
@@ -20,4 +20,3 @@ int main() {
 
     return 0;
 }
-
