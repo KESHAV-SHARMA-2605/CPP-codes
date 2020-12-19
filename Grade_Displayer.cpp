@@ -34,9 +34,9 @@ int main() {
         return 0;
     }
     
-    cout << "The sum of your marks is: " << sum << endl;
+    cout << "The sum of your marks out of 300 is: " << sum << endl;
     
-    cout << "Your average marks in each subject is: " << average << endl;
+    cout << "Your average marks in each subject out of 100 is: " << average << endl;
     
     if(average >= 75) {
         cout << "Excellent!!! 'A' grade is awarded to you!!! Keep it up!!!" << endl;
