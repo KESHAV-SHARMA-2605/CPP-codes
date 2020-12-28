@@ -2,8 +2,7 @@
 using namespace std;
 
 int main() {
-    int m1, m2, m3, sum;
-    double average;
+    int m1, m2, m3, sum, average;
 
     cout << "Please enter the marks of your three subjects (please enter the marks that you obtained from 100): " << endl;
     cin >> m1;
