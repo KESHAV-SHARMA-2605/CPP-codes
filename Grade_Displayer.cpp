@@ -2,7 +2,8 @@
 using namespace std;
 
 int main() {
-    int m1, m2, m3, sum, average;
+    int m1, m2, m3, sum;
+    double average;
 
     cout << "Please enter the marks of your three subjects (please enter the marks that you obtained from 100): " << endl;
     cin >> m1;
@@ -39,14 +40,14 @@ int main() {
     cout << "Your average marks in each subject out of 100 is: " << average << endl;
     
     if(average >= 75) {
-        cout << "Excellent!!! 'A' grade is awarded to you!!! Keep it up!!!" << endl;
+        cout << "Excellent!!! As you have scored an average of 75 or 75+, 'A' grade is awarded to you!!! Keep it up!!!" << endl;
     }
     else if(average >= 35 && average < 75) {
-        cout << "Good!!! 'B' grade is awarded to you!!! But, get the 'A' grade next time!!!" << endl;
+        cout << "Good!!! As you have scored an average of 35, 35+, or below 75, 'B' grade is awarded to you!!! But, get the 'A' grade next time!!!" << endl;
     }
     else {
-        cout << "Poor!!! 'C' grade is awarded to you!!! You need to focus on your studies!!!" << endl;
+        cout << "Poor!!! As you have scored an average of 35 below, 'C' grade is awarded to you!!! You need to focus on your studies!!!" << endl;
     }
 
     return 0;
-}
+}    
