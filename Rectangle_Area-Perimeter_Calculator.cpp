@@ -12,7 +12,7 @@ int area() {
 
 int main() {
 
-    cout << "Please enter the dimensions of the rectangle(length and breadth) respectively: " << endl;
+    cout << "Please enter the dimensions of the rectangle (length and breadth) respectively: " << endl;
     cin >> length >> breadth;
 
     cout << "The perimeter of the desired rectangle is: " << perimeter() << endl;
