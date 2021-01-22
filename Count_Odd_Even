@@ -1,0 +1,29 @@
+// We have to tell the count of odd and even numbers in an array given by the user
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int n, arr[n], count1 = 0, count2 = 0;
+
+    cin >> n;
+
+    for(int i = 0; i <= n-1; i++) {
+        cin >> arr[i];
+    }
+
+    for(int j = 0; j <= n-1; j++) {
+        if(arr[j] % 2 == 0)
+            count1++;
+        else 
+            count2++;
+    }
+
+    cout << "The number of even numbers in the desired array is: " << count1 << endl;
+
+    cout << "The number of odd numbers in the desired array is: " << count2 << endl;
+
+
+    return 0;
+}
