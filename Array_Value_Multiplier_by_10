@@ -1,0 +1,22 @@
+// We have to multiply the values of an array by 10 that are given by the user
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int n, arr[n];
+
+    cin >> n;
+
+    for(int i = 0; i <= n-1; i++) {
+        cin >> arr[i];
+    }
+
+    for(int j = 0; j <= n-1; j++) {
+        arr[j]=arr[j]*10;
+        cout << arr[j] << endl;
+    }
+
+    return 0;
+}
